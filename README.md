@@ -14,6 +14,8 @@ Minimal reproduction for a react-native-screens iOS bug.
 
 **Actual:** the title keeps the previous colour (dark text on a dark page) until the screen appears again, for example after switching tabs.
 
+![Large title still dark after switching to the dark theme](screenshots/stale-title.png)
+
 **Control:** the same steps on the **Home** tab, which has no header search bar, update the title correctly.
 
 ## Cause
